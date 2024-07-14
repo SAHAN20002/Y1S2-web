@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Lobster&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.About-Us-Container{
+    width: 100%;
+    height: 1600px;
+    /*border: 1px solid red;*/
+}
+.About-Us-Container-image{
+    width: 100%;
+    height: 650px;
+    /*border: 1px solid red;*/
+    background-image: url(Image/About/FSL-FA19-HybridHR-midhero.jpg);
+    background-size: cover;
+}
+.About-Us-Container-image-inner{
+    width: 99.9%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.344);
+    display: flex;
+    justify-content: flex-end;
+}
+.About-Us-Container-image-inner-text{
+    width: 50%;
+    height: 50%;
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Inria Sans', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    flex-direction: column;
+}
+.About-Us-Container-image-inner-text-cont{
+    font-size: 30px;
+    margin-top: -80px;
+}
+.About-Us-Container-text-about,.About-Us-Container-text-privacy-police{
+    width: 100%;
+    height: 500px;
+    /*border: 1px solid red;*/
+    background-color: rgba(14,14,14,255);
+    font-family: 'Inria Sans', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.About-Us-Container-text-about-tpoic{
+    width: 100%;
+    height: 20%;
+   /* border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.About-Us-Container-text-about-contant{
+    width: 90%;
+    height: 80%;
+    /*border: 1px solid red;*/
+    font-size: 20px;
+    text-align: center;
+}

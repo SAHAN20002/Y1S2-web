@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Lobster&display=swap');
+
+
+body{
+ margin: 0;
+ padding: 0;
+ background-image: url(Image/signup/9873.jpg_wh1200.jpg);
+ background-size: cover;
+
+
+}
+
+.container{
+ border: 1px solid rgba(255, 255, 255, 0.525);
+ width: 1000px;
+ height: 500px;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ display: flex;
+ border-radius: 15px;
+ align-items: center;
+ justify-items: center;
+ padding-left: 100px ;
+ z-index: 10;
+ background-color: rgba(255, 255, 255, 0.544);
+ 
+ 
+}
+
+.inner{
+ width: 450px;
+ height: 450px;
+/* border: 1px solid red;*/
+ justify-content: center;
+ align-items: center;
+ 
+ 
+ 
+}
+hr{
+ border: 1px solid black;
+ width: 100px;
+ margin-top: -5px;
+ margin-bottom: -9px;
+ 
+}
+
+h1{
+ font-family: 'Inria Sans', sans-serif;
+ text-align: center;
+ font-size: 65px;
+ margin: 5px;
+ 
+}
+h2{
+ font-family: 'Lobster', cursive;
+ font-size: 45px; 
+ margin-top: -10px;
+ margin-left: 60px;
+ margin-bottom: -5px;
+}
+h3{
+ font-family: 'Inria Sans', sans-serif;
+ text-align: center;
+ font-size: 20px;
+ margin-top: 120px;
+ margin-bottom: -4px;
+}
+h6{
+ font-family: 'Inria Sans', sans-serif;
+ text-align: center; 
+ font-size: 15px;
+ margin: 5px;
+}
+label{
+ 
+ font-family: 'Inria Sans', sans-serif ;
+ align-items: center;
+ justify-content: center;
+ margin-left: -270px;
+ font-size: 20px;
+ margin-top: -8px;
+ margin-bottom: -7px;
+ 
+
+}
+input{
+ margin-left: -20px;
+ margin-top: -2px;
+ width: 350px;
+ height: 35px;
+ border-radius: 20px;
+ border: 1px solid blue;
+ font-family: 'Inria Sans', sans-serif;
+ font-size: 15px;
+ 
+ 
+}
+.from-control{
+    text-align: left;
+    padding-left: 10px;
+}
+.login-div{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ /*border: 1px solid red;*/
+ width: 450px;
+ height: 450px;
+ border-radius: 20px;
+}
+.login{
+ font-family: 'Inria Sans', sans-serif ;
+ font-size: 40px;
+margin-top: -40px;
+ 
+}
+.login-button{
+ width: 350px;
+ height: 40px;
+ margin-top: 20px;
+ border: 1px solid rgb(249, 249, 253);
+ border-radius: 20px;
+ font-size: 20px;
+ font-weight: bold;
+ color: white;
+ background-color: blue;
+ transition: 1s;
+ margin-left: -20px;
+
+}
+.login-button:hover{
+ background-color: white;
+ color: blue;
+ border-color: blue;
+ font-size:22px ;
+ transition: 1s;
+ cursor: pointer;
+}
+.vl {
+ border-left: 4px solid rgb(0, 0, 0);
+ height: 350px;
+}
+h4{
+ font-family:'Inria Sans', sans-serif ;
+ margin-top: -5px;
+ margin-bottom: 9px;
+}
+a:link { 
+ text-decoration: none; 
+} 
+a:hover { 
+ text-decoration: none; 
+
+}

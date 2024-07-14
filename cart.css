@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Lobster&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: dotted;
+    
+}
+.container{
+   width: 100%;
+   height: 735px;
+   /*border: 1px solid red; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: black;
+}
+.outer{
+    width: 80%;
+    height: 80%;
+    /*border: 1px solid red;*/
+    z-index: 10;
+    background-color: white;
+    border-radius:20px;
+    border-radius: 20px;
+    display: flex;
+}
+.outer-left{
+    width: 75%;
+    height: 100%;
+   /* border: 1px solid red;*/
+}
+.outer-right{
+    width: 25%;
+    height: 100%;
+   border: 1px solid rgb(0, 0, 0);
+   background-color: rgb(253, 253, 250);
+   border-radius: 0px 20px 20px 0px;
+   z-index: 5;
+}
+.outer-left-headr{
+    width: 100%;
+    height: 25%;
+   /* border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer-left-mid{
+    width: 100%;
+    height: 60%;
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer-left-bootm{
+    width: 100%;
+    height: 15%;
+    /*border: 1px solid red;*/
+}
+.outer-left-headr-left,.outer-left-headr-right{
+    width: 45%;
+    height: 80%;
+   /* border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    font-family: 'Inria Sans', sans-serif;
+}
+.outer-left-headr-right{
+     justify-content: flex-end;
+     font-size: 20px;
+}
+.outer-right-text{
+    width: 20%;
+    height: 25%;
+   /* border: 1px solid red; */
+    margin-left: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.outer-left-mid-inner{
+    width: 90%;
+    height: 90%;
+    /*border: 1px solid red;*/
+}
+.cart-items{
+    width: 100%;
+    height: 25%;
+   /* border: 1px solid red;*/
+    display: flex;
+}
+.cart-items-image{
+    width: 20%;
+    height: 100%;
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 60%;
+    height: 90%;
+    /*border: 1px solid red;*/
+    background-image: url(Image/cart/images.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.text{
+    width: 90%;
+    height: 90%;
+   /* border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inria Sans', sans-serif;
+}
+.text-h6{
+    margin-top: 18px;
+    margin-bottom: -15px;
+    font-size: 15px;
+}
+.add-value{
+    width: 60%;
+    height: 30%;
+    border: 1px solid rgb(187, 182, 182);
+    display: flex;
+}
+.add-value-1{
+    width: 33.33333%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(172, 168, 168);
+}
+.Price{
+    width: 70%;
+    height: 40%;
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    width: 10%;
+    height: 30%;
+    /*border: 1px solid red;*/
+    background-image: url(Image/cart/211651_close_round_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+.outer-right-top{
+   width: 100%;
+   height: 20%;
+   /*border: 1px solid red; */
+   display: flex;
+  align-items: flex-end;
+  
+}
+.outer-right-bootam{
+    width: 100%;
+    height: 20%;
+    /*border: 1px solid red; */
+    display: flex;
+   flex-direction: column;
+}
+.outer-right-mid{
+    width: 100%;
+   height: 60%;
+   /*border: 1px solid red; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.summary{
+    width: 60%;
+    height: 50%;
+    /*border: 1px solid red; */
+    font-family: 'Inria Sans', sans-serif;
+    margin-left: 10px;
+}
+.outer-right-mid-inner{
+    width: 90%;
+    height: 100%;
+    border: 1px solid rgb(255, 255, 255);
+}
+.outer-right-mid-inner-top{
+    width: 100%;
+    height: 20%;
+    border: 1px solid rgb(255, 255, 255)(255, 255, 255);
+    display: flex;
+}
+.outer-right-mid-inner-middel{
+    width: 100%;
+    height: 35%;
+    border: 1px solid rgb(255, 255, 255);
+}
+.outer-right-mid-inner-bootam{
+    width: 100%;
+    height: 35%;
+    border: 1px solid rgb(246, 246, 246);
+}
+.outer-right-inner-top{
+    width: 100%;
+    height: 40%;
+   /* border: 1px solid red;*/
+    display: flex;
+}
+.outer-right-inner-bootam{
+    width: 100%;
+    height: 60%;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-right-inner-top-left{
+    width: 50%;
+    height: 100%;
+   /* border: 1px solid red;*/
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Inria Sans', sans-serif;
+    margin-left: 15px;
+}
+.outer-right-inner-top-right{
+    width: 50%;
+    height: 100%;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Inria Sans', sans-serif;
+    margin-right: 15px;
+}
+button{
+    width: 250px;
+    height: 40px;
+    border: 1px solid wheat;
+    background-color: black;
+    color: wheat;
+    border-radius: 20px;
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.407);
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.outer-right-mid-inner-top-left{
+    width: 50%;
+    height: 100%;
+   /* border: 1px solid red;*/
+    font-family: 'Inria Sans', sans-serif;
+    display: flex;
+    
+}
+.outer-right-mid-inner-top-right{
+    width: 50%;
+    height: 100%;
+    /*border: 1px solid red;*/
+    font-family: 'Inria Sans', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+.h4{
+    font-family: 'Inria Sans', sans-serif;  
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
